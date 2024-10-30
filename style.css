@@ -1,0 +1,127 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./midias/background1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: black;
+}
+.navbar ul li{
+    text-align: center;
+}
+.navbar-nav-scroll{
+    text-align: center;
+}
+.nav-item{
+    padding: 10px;
+    margin: 5px 20px;   
+}
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-item a:hover{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+
+section{
+    min-height: 100vh;
+    position: sticky;
+}
+
+#text-inicio{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10%;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 100%;
+}
+
+.texto-titulos{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 150px;
+    margin: 50px 25px 150px 25px;
+    padding: 30px;
+}
+.texto-titulos h1{
+    text-decoration: underline;
+    font-size: 52px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.texto-titulos img{
+    border-radius: 20px;
+    
+}
+.texto-titulos p{
+    background-color: rgba(0, 0, 0, 0.318);
+    text-align: justify;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10%;
+    font-size: 18px;
+}
+
+.card{
+    background-color:  rgba(0, 0, 0, 0.603);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    max-width: 550px;
+    border-radius: 20px;
+    align-content: center;
+}
+
+
+#formulario{
+    background-color: rgba(58, 58, 58, 0.603);
+    max-width: 1024px;
+    height: 500px;
+    margin: 20px auto;
+    align-content: center;
+    border-radius: 25px;
+}
+.texto-denuncia{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.form-floating{
+    margin: 40px;
+}
+.form-check {
+    color: white;
+    margin: 20px 40px;
+}
+.btn{
+    padding: 10px 25px;
+    margin: 1px 40px;
+}
+
+
+
+.container-fluid{
+    color: white;
+}
