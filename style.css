@@ -97,7 +97,7 @@ section{
 #formulario{
     background-color: rgba(58, 58, 58, 0.603);
     max-width: 1024px;
-    height: 500px;
+    min-height: 500px;
     margin: 20px auto;
     align-content: center;
     border-radius: 25px;
