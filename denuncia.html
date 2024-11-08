@@ -41,14 +41,24 @@
 
     <section id="formulario">
         <h2 class="texto-denuncia">Faça sua Denúncia aqui</h2>
-        <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Nome</label>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nome Completo" aria-label="name">
+                    <label for="floatingInputGrid">Nome Completo</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="Idade" aria-label="idade">
+                    <label for="floatingInputGrid">Idade</label>
+            </div>
+            </div>
         </div>
         <div class="row g-2">
             <div class="col-md">
               <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="name@example.com">
                 <label for="floatingInputGrid">E-mail</label>
               </div>
             </div>
@@ -56,10 +66,12 @@
               <div class="form-floating">
                 <select class="form-select" id="floatingSelectGrid">
                   <option selected>Escolha uma opção</option>
-                  <option value="1">Golpe 1</option>
-                  <option value="2">Golpe 2</option>
-                  <option value="3">Golpe 3</option>
-                  <option value="3">Golpe 4</option>
+                  <option value="1">Golpe por E-mail</option>
+                  <option value="2">Golpe por SMS</option>
+                  <option value="3">Golpe por Ligação</option>
+                  <option value="4">Golpe por Whatsapp</option>
+                  <option value="5">Golpe por Site falso</option>
+                  <option value="6">Golpe Bancário(pix ou boleto)</option>
                 </select>
                 <label for="floatingSelectGrid">Selecione</label>
               </div>
@@ -72,10 +84,10 @@
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
-              Termos
+              <a href="#">Termos de Segurança</a>
             </label>
         </div>
-        <button type="button" class="btn btn-outline-info">Enviar</button>
+        <button type="button" class="btn btn-outline-info">Enviar as Informações</button>
     </section>
 
     <div class="container-fluid">
@@ -84,7 +96,7 @@
                 <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
                 </a>
-                <span class="mb-3 mb-md-0">&copy; 2024 Projeto Escudo Digital - ADS UniNorte</span>
+                <span class="mb-3 mb-md-0">&copy; 2024 Projeto Escudo Digital - Direitos reservados ADS UniNorte</span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
