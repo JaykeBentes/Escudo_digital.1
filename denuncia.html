@@ -19,21 +19,23 @@
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav navbar-nav-scroll me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="golpes.html">Golpes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="seguranca.html">Segurança</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="denuncia.html">Denúncia</a>
-                        </li>
-                    </ul>
+                <div class="container-header">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-right navbar-nav-scroll me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="golpes.html">Golpes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="seguranca.html">Segurança</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="denuncia.html">Denúncia</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -44,13 +46,13 @@
         <div class="row g-2">
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nome Completo" aria-label="name">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nome Completo" aria-label="name" required>
                     <label for="floatingInputGrid">Nome Completo</label>
                 </div>
             </div>
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="Idade" aria-label="idade">
+                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="Idade" aria-label="idade" required>
                     <label for="floatingInputGrid">Idade</label>
             </div>
             </div>
@@ -58,13 +60,13 @@
         <div class="row g-2">
             <div class="col-md">
               <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="name@example.com">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" required>
                 <label for="floatingInputGrid">E-mail</label>
               </div>
             </div>
             <div class="col-md">
               <div class="form-floating">
-                <select class="form-select" id="floatingSelectGrid">
+                <select class="form-select" id="floatingSelectGrid" required>
                   <option selected>Escolha uma opção</option>
                   <option value="1">Golpe por E-mail</option>
                   <option value="2">Golpe por SMS</option>
@@ -96,7 +98,7 @@
                 <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
                 </a>
-                <span class="mb-3 mb-md-0">&copy; 2024 Projeto Escudo Digital - Direitos reservados ADS UniNorte</span>
+                <span class="mb-3 mb-md-0">&copy; 2024 Projeto Escudo Digital - Direitos reservados.</span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
