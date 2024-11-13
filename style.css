@@ -118,6 +118,9 @@ body {
     text-align: center;
     text-decoration: underline;
 }
+#formulario{
+    padding: 15px;
+}
 .form-floating{
     margin: 40px;
 }
